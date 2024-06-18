@@ -19,7 +19,7 @@ public class Loops
 
         int y = 0;
 
-        do // test after (do-while loop)
+        do // post-test loop (do-while loop)
         {
             System.out.println("Hello Felix!");
             y++;
@@ -28,7 +28,7 @@ public class Loops
 
         System.out.println(" ");
 
-        for (int z = 0; z < 5; z++) // for loop
+        for (int z = 0; z < 5; z++) // pre-test loop (for loop)
         {
             System.out.println("Hello Happiness!");
         }
